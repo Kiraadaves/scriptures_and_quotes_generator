@@ -1,0 +1,25 @@
+body {
+	background-image: linear-gradient(to bottom right, #FF8FB1, #B270A2, #FF8FB1); /*After this, we will notice that because we did not specify a size for our body, we will have multiple layers. this is why below, we are adding a min-height*/
+	min-height: 100vh;/*sets it to atleast 100% of the view port. This is also necessary to enable our centering work as it wont show if we do not give the body a height*/
+	display: flex; /* to help us center everything inside our body tag */
+	justify-content: center; /*center horizontally*/
+	align-items: center; /*center vertically. it depends on the height, if height isnt specified, itwon't work*/
+	/*font-family: monospace;*/
+}
+
+.container {
+	background-color: #FF8FB1;
+	padding: 20px;
+	box-shadow: 0 10px 10px #7A4495; /* x-axisvalue. y-axis, blur radius and color */
+	border-radius: 17px;
+	width: 85%;
+	text-align: center; /* will bring all our text to the center */
+	color: #674188;
+}
+
+.heading {
+	font-size: 35px;
+	font-weight: bold;
+	font-family:;
+	text-shadow: 2px 1px 3px #B270A2; /* same parameter as box-shadow */
+}
