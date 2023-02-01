@@ -18,8 +18,40 @@ body {
 }
 
 .heading {
-	font-size: 35px;
+	font-size: 38px;
 	font-weight: bold;
 	font-family:;
 	text-shadow: 2px 1px 3px #B270A2; /* same parameter as box-shadow */
+	letter-spacing: 1.5px;	
+}
+
+.quotes {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 40px;
+	/*color: white;*/
+	text-shadow: 2px 1px 3px #7A4495; 
+}
+
+.btn {
+	font-size: 14px;
+	letter-spacing: 0.5;
+	font-weight: 700;
+	border-radius: 10px;
+	cursor: pointer; /* this gives the cursor a handlike icon when we hover to the button */
+	padding: 10px;
+	color: #674188;
+	border-color: white;
+	background-color: #FFD4D4;
+	box-shadow: 1px 4px 5px #7A4495;
+} 
+
+.btn:hover {
+	background-color: white;
+}
+
+.btn:active {
+	background-color: white;
+	box-shadow: none;
+	transform: translateY(3px);
 }
